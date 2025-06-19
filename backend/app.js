@@ -17,7 +17,7 @@ app.get("/hello", (req, res) => {
 app.get("/board", (req, res) => {
   res.send({ title: "노드 api 서버 update!!!!" });
 });
-
+// app.sda
 // vue.js build 이후
 const path = require('path');
 const publicPath = path.join(__dirname, 'public');
