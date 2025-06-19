@@ -19,8 +19,6 @@ app.get("/board", (req, res) => {
 });
 
 // vue.js build 이후
-// github action 추가함
-//ㄴㅇㅁㅇㅁㅇ
 const path = require('path');
 const publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
